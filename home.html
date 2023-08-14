@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Page Transitions</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c4b7d7f020.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="bgcontenedor">
+    <div class="gris"></div>
+    <div class="negro"></div>
+    <div class="contep">
+      <div class="princ btn1" onclick="mostrarp(1,1)" id="btn1">
+        <p>1</p>
+      </div>
+
+      <div class="princ btn1" onclick="mostrarp(2,2)" id="btn2">
+        <p>2</p>
+      </div>
+
+      <div class="princ btn1" onclick="mostrarp(3,3)" id="btn3">
+        <p>3</p>
+      </div>
+
+      <div class="princ btn1" onclick="mostrarp(4,4)" id="btn4">
+        <p>4</p>
+      </div>
+
+      <div class="princ btn1" onclick="mostrarp(5,5)" id="btn5">
+        <p>5</p>
+      </div>
+
+      <div class="princ btn1" onclick="mostrarp(6,6)" id="btn6">
+        <p>6</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="texto1 hide align-items-center" id="text1">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">1</h2>
+      <div class="conteimatex">
+        <p class="parr"><b>Incorporación de asuntos ASG en los análisis de inversión y procesos de toma de
+            decisiones.</b>
+          Integrar asuntos ASG en las políticas de inversión y promover su evaluación y capacitación, apoyar el
+          desarrollo de herramientas y análisis relacionados, solicitar a proveedores de servicios de inversión que
+          integren factores ASG en investigaciones y análisis, e incentivar la investigación en este tema.</p>
+        <img src="natural.jpg" alt="" class="imagder">
+      </div>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text2">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2</h2>
+      <div class="conteimatex">
+        <p class="parr2"><b>Ser propietario activo e incorporar asuntos ASG en prácticas y políticas de propiedad.</b> Elaborar
+          y comunicar una política de ejercicio activo de la propiedad y relacionamiento con empresas, a través de la
+          participación en el desarrollo de políticas, la presentación de resoluciones de accionistas, la colaboración
+          en iniciativas de relacionamiento y la solicitud de informes de administradoras de inversiones.
+        </p>
+        <img src="fisico.jpg" alt="" class="imagder">
+      </div>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text3">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">3</h2>
+      <div class="conteimatex">
+        <p class="parr3"><b>Procurar una divulgación adecuada de los asuntos ASG por parte de las entidades en las que se
+          invierte.</b> Promover la transparencia y responsabilidad empresarial en asuntos ASG mediante la estandarización
+          de informes, la integración en informes financieros, la solicitud de información sobre adopción de normas y
+          estándares internacionales y el apoyo a iniciativas de accionistas.
+        </p>
+        <img src="humano.jpg" alt="" class="imagder">
+      </div>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text4">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">4</h2>
+      <div class="conteimatex">
+        <p class="parr4"><b>Promover la aceptación e implementación de los principios en el sector de las inversiones.</b>
+          Promover la implementación mediante la inclusión de requisitos en solicitudes de propuestas, alinear encargos
+          de inversión y procedimientos de monitoreo, comunicar expectativas a proveedores, revisar relaciones y apoyar
+          el desarrollo de herramientas y políticas que faciliten la implementación de los Principios.
+        </p>
+        <img src="social.jpg" alt="" class="imagder">
+      </div>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text5">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">5</h2>
+      <div class="conteimatex">
+        <p class="parr5"><b>
+          Trabajar de manera colaborativa para incrementar la efectividad en la aplicación de los
+            principios.
+        </b> Fomentar la colaboración y el intercambio de recursos en redes y plataformas para abordar asuntos
+          emergentes de manera colectiva y apoyar iniciativas colaborativas pertinentes.
+        </p>
+        <img src="financiero.jpg" alt="" class="imagder">
+      </div>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text6">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">6</h2>
+      <div class="conteimatex">
+        <p class="parr6"><b>
+          Presentar informes sobre la actividades y progreso con respecto a la aplicación de los
+            principios.
+        </b> Divulgar y comunicar de manera constante la integración de los asuntos ASG en las prácticas de
+          inversión, incluyendo el ejercicio activo de la propiedad, los requisitos a los proveedores de servicios y los
+          avances en los Principios mediante un enfoque "cumplir o explicar". Asimismo, procurar determinar su impacto e
+          informar a los beneficiarios de manera efectiva a través de la presentación de informes para aumentar la
+          conciencia ASG en diferentes grupos.
+        </p>
+        <img src="intelectual.jpg" alt="" class="imagder">
+      </div>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text7">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2005</h2><br>
+      <p class="parr7">Las Naciones Unidas emitieron la Evaluación de los Ecosistemas del Milenio (<i>Ecosystem and
+          Human Well-Being</i>) con
+        el objetivo de conocer el estado de los ecosistemas y tomar acciones para mejorar su conservación y uso
+        sostenible, así como del bienestar humano (Naciones Unidas, s. f.). Este estudio representó un hito importante
+        al acuñar el término <b>servicios ecosistémico</b>s a partir del cual la naturaleza no solamente tiene un valor
+        intrínseco, sino que brinda servicios al ser humano y a sus actividades productivas, que son indispensables para
+        su bienestar y el desarrollo económico.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text8">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2010</h2><br>
+      <p class="parr8">Se crea la fundación Ellen MacArthur con el objetivo de promover la economía circular como nuevo
+        paradigma de
+        producción y consumo mundial. Aunque el término economía circular se atribuye inicialmente a la obra de Pearce y
+        Turner (1990) y luego a William McDonough autor del libro “De la cuna a la cuna: rediseñando la forma en que
+        hacemos las cosas”, la Fundación Ellen MacArthur ha liderado la producción de investigaciones y documentos para
+        hacedores de política y profesionales en torno a la economía circular.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text9">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2015</h2><br>
+      <p class="parr9">Las Naciones Unidas establecieron los Objetivos de <b>desarrollo sostenible</b>, también
+        denominados Objetivos
+        Globales, cuya meta general es que para 2030 las personas disfruten de paz y prosperidad. Se contemplan
+        diecisiete objetivos, entre los que destacan: fin de la pobreza, hambre cero; salud y bienestar; educación de
+        calidad; igualdad de género; agua limpia y saneamiento; energía asequible y no contaminante; etcétera. Al
+        profundizar en cada uno se encuentran las metas e indicadores que precisan su cumplimiento (Naciones Unidas, s.
+        f.).
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text10">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2020</h2><br>
+      <p class="parr10">Las consecuencias de la pandemia por COVID-19 causaron estragos dejando al descubierto las
+        múltiples
+        deficiencias en las dimensiones económica, social y ambiental. A la fecha su impacto sigue presente en las
+        sociedades de todo el mundo haciendo un llamado a la unión de esfuerzos para superar una fase que ha trastocado
+        al ser humano.
+      </p>
+    </div>
+  </div>
+
+  <div class="texto1 hide align-items-center" id="text11">
+    <div class="d-flex align-content-center flex-wrap">
+      <h2 style="color:#d18a29">2022</h2><br>
+      <p class="parr11">El último estudio del Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC)
+        evidenció que el
+        impacto de las actividades humanas sobre el cambio climático es irrefutable. Una verdad que hoy parece obvia
+        pero que nos tardó décadas aceptar y que incluso gobiernos recientes, aún niegan con vehemencia, argumentando
+        ciclos naturales del clima, ajenos a los impactos del ser humano.
+      </p>
+    </div>
+  </div>
+
+  <!-------------scripts------------------>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
